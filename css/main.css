@@ -1,0 +1,34 @@
+body {
+    font-size: 80px;
+    text-align: center;
+    font-weight: 800;
+}
+section {
+    margin: 100px;
+    display: flex; 
+    justify-content: center;  
+    align-items: center; 
+    flex-direction: column;
+    align-self: center;
+}
+
+input {
+    width: 40%;
+    border: 5px solid rgb(166, 166, 166);
+    border-radius: 10%;
+}
+
+button {
+    width: 100px;
+    padding: 0px 20px;
+    border: 0px;
+    border-radius: 10%;
+    color: white;
+    background-color: rgb(166, 166, 166);
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(166, 166, 166);
+    border: 5px solid rgb(166, 166, 166);
+}
