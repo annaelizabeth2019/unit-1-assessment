@@ -29,9 +29,7 @@ function minusOne() {
 function render() {
     document.getElementById("number-clicks").innerHTML = count;
     document.getElementById("input").value = count;
-    if (count < 0) {
-    document.getElementById("number-clicks").style.color = 'red';
-    }
+    count < 0 ? document.getElementById("number-clicks").style.color = 'red' : document.getElementById("number-clicks").style.color = 'black'
 };
 
 function inputNumber(str) {
